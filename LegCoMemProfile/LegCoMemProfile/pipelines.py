@@ -5,6 +5,7 @@
 from scrapy.contrib.pipeline.images import ImagesPipeline
 from scrapy.exceptions import DropItem
 from scrapy.http import Request
+import json
 
 class LegcomemprofilePipeline(object):
     def process_item(self, item, spider):

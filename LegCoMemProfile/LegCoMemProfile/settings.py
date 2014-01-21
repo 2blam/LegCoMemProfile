@@ -14,3 +14,4 @@ NEWSPIDER_MODULE = 'LegCoMemProfile.spiders'
 #enable images pipeline
 ITEM_PIPELINES = {'scrapy.contrib.pipeline.images.ImagesPipeline': 1}
 IMAGES_STORE= 'C:/[DATA]/code4hk/LegCoMemProfile/profile_image/'
+
